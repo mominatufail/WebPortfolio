@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 
 import 'Project.dart';
 
-class WebPortfolio extends StatelessWidget {
-  const WebPortfolio({super.key});
+class DesktopView extends StatelessWidget {
+  const DesktopView({super.key});
 
   @override
   Widget build(BuildContext context) {
