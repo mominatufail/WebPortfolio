@@ -110,24 +110,28 @@ class DesktopView extends StatelessWidget {
     ),
     ),
     SizedBox(height: 10),
-    Row(
+    Column(
       children: [
-        SizedBox(width: 25,),
-    ProjectCard(
-    title: 'Project One',
-    description: 'An amazing Flutter application for e-com.',
-    url: 'https://github.com/mominatufail/project_one',
-    ),
-    SizedBox(width: 50,),
-    ProjectCard(
-    title: 'Project Two',
-    description: 'A powerful Android app for task management.',
-    url: 'https://github.com/mominatufail/project_two',
-    ),
+        Row(
+          children: [
+            SizedBox(width: 25,),
+        ProjectCard(
+        title: 'Project One',
+        description: 'An amazing Flutter application for e-com.',
+        url: 'https://github.com/mominatufail/project_one',
+        ),
+        SizedBox(width: 50,),
+        ProjectCard(
+        title: 'Project Two',
+        description: 'A powerful Android app for task management.',
+        url: 'https://github.com/mominatufail/project_two',
+        ),
 
 
-          ],
-        )
+              ],
+            ),
+      ],
+    )
 
     ],
     ),
