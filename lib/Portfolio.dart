@@ -21,7 +21,7 @@ class DesktopView extends StatelessWidget {
                 Navigator.push(context, CupertinoPageRoute(
                     builder: (context) => DesktopView()));
               },
-              leading: Icon(Icons.home),
+              leading: Icon(Icons.home_outlined),
               title: Text('Home')),
           ListTile(
             onTap:() {
@@ -37,8 +37,24 @@ class DesktopView extends StatelessWidget {
                 Navigator.push(context, CupertinoPageRoute(
                     builder: (context) => DesktopView()));
               },
-              leading: Icon(Icons.work_outlined),
+              leading: Icon(Icons.work_outline),
               title: Text('Work')),
+          ListTile(
+              onTap:() {
+                Navigator.pop(context);
+                Navigator.push(context, CupertinoPageRoute(
+                    builder: (context) => DesktopView()));
+              },
+              leading: Icon(Icons.graphic_eq_outlined),
+              title: Text('Skills')),
+          ListTile(
+              onTap:() {
+                Navigator.pop(context);
+                Navigator.push(context, CupertinoPageRoute(
+                    builder: (context) => DesktopView()));
+              },
+              leading: Icon(Icons.contact_mail_outlined),
+              title: Text('Contact')),
         ],
       ),
     ),
