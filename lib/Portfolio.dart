@@ -62,10 +62,10 @@ class DesktopView extends StatelessWidget {
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                Text('A skilled developer with a strong focus on creating high-quality, user-friendly mobile applications.\n'
-                    'Proficient in native Android development using Kotlin and Java, as well as cross-platform app development\n'
-                    ' with Flutter and Dart. Experienced in designing, building, and deploying scalable,\n'
-                    'responsive, and visually appealing applications tailored to meet client requirements.')
+                 Text(' A skilled developer with a strong focus on creating high-quality, user-friendly, \n'
+                      ' mobile applications, as well as cross-platform app development with Flutter \n'
+                      ' and Dart. Experienced in designing, building, and deploying scalable, responsive\n'
+                      ' and visually appealing applications tailored to meet client requirements.'),
               ],
             ),
           ),
