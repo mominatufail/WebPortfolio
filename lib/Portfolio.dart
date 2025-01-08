@@ -1,3 +1,4 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 import 'Project.dart';
@@ -8,8 +9,41 @@ class DesktopView extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
 
-    return Scaffold(
-    appBar: AppBar(backgroundColor: Colors.purple.shade100,
+    return Scaffold(drawer: Drawer(
+      child: ListView(
+        children: [
+          UserAccountsDrawerHeader(
+              currentAccountPicture: CircleAvatar(),
+              accountName: Text('Momina Tufail'), accountEmail: Text('momnatufail30@gmail.com')),
+          ListTile(
+              onTap:() {
+                Navigator.pop(context);
+                Navigator.push(context, CupertinoPageRoute(
+                    builder: (context) => DesktopView()));
+              },
+              leading: Icon(Icons.home),
+              title: Text('Home')),
+          ListTile(
+            onTap:() {
+              Navigator.pop(context);
+              Navigator.push(context, CupertinoPageRoute(
+                  builder: (context) => DesktopView()));
+            },
+            leading: Icon(Icons.account_box_outlined),
+            title: Text('About')),
+          ListTile(
+              onTap:() {
+                Navigator.pop(context);
+                Navigator.push(context, CupertinoPageRoute(
+                    builder: (context) => DesktopView()));
+              },
+              leading: Icon(Icons.work_outlined),
+              title: Text('Work')),
+        ],
+      ),
+    ),
+    appBar: AppBar(
+      backgroundColor: Colors.purple.shade100,
     title: Center(child: Text('Momina Tufail Web Portfolio')),
     ),
     body: Padding(
