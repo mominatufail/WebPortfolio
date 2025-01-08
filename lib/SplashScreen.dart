@@ -27,7 +27,7 @@ class _SplashscreenState extends State<Splashscreen> {
         child: Center(
           child: Column(children: [
            // Icon(Icons.facebook_rounded,color: Colors.blue,),
-            Text('Momina Tufail Web Portfolio',style: TextStyle(color: Colors.white,fontWeight: FontWeight.bold),),
+            Text('Momina Tufail Web Portfolio',style: TextStyle(color: Colors.purpleAccent,fontWeight: FontWeight.bold),),
             // SizedBox(height: 50,),
             // Text('Submitted by Momina Tufail'),
           ]
