@@ -58,7 +58,9 @@ class DesktopView extends StatelessWidget {
         ],
       ),
     ),
-    appBar: AppBar(
+    appBar: AppBar(actions: [ Icon(CupertinoIcons.search),
+      SizedBox(width: 10,),
+    ],
       backgroundColor: Colors.purple.shade100,
     title: Center(child: Text('Momina Tufail Web Portfolio')),
     ),
