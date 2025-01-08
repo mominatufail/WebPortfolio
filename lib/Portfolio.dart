@@ -119,7 +119,7 @@ class DesktopView extends StatelessWidget {
             children: [
               SizedBox(width: 25,),
           ProjectCard(
-          title: 'Project One',
+          title: 'Facebook Feed Demo',
           description: 'An amazing Flutter application for e-com.',
           url: 'https://github.com/mominatufail/project_one',
           ),
