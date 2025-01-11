@@ -1,6 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:portfolio/Constants/Colors/Colors.dart';
-import 'package:portfolio/Constants/Nav-Items/Nav-Items.dart';
 import 'package:webportfolio/Controller/Constants/Colors/Colors.dart';
 import 'package:webportfolio/Controller/Constants/NavItems/Nav-Item.dart';
 
