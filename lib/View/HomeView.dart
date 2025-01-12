@@ -5,6 +5,11 @@ import 'package:webportfolio/Controller/Constants/ScreenSize/ScreenSize.dart';
 import 'package:webportfolio/Controller/Constants/Widgets/DrawerMobile.dart';
 import 'package:webportfolio/Controller/Constants/Widgets/HeaderDesktop.dart';
 import 'package:webportfolio/Controller/Constants/Widgets/HeaderMobile.dart';
+import 'package:webportfolio/Controller/Constants/Widgets/Project%20Section.dart';
+import 'package:webportfolio/Controller/Constants/Widgets/Skill%20Mobile.dart';
+import 'package:webportfolio/Controller/Constants/Widgets/SkillDesktop.dart';
+import 'package:webportfolio/Controller/Constants/Widgets/TextFieldWidget.dart';
+import 'package:webportfolio/View/MobileView.dart';
 
 import 'DesktopView.dart';
 class HomePage extends StatefulWidget {
