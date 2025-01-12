@@ -30,5 +30,9 @@ List<ProjectsUtils> workProjectUtils = [
   ProjectsUtils(
       image: 'assets/Projects/Facebook.png',
       title:'Facbook clone app',
-      subtitle: 'has the ui of facebook')
+      subtitle: 'has the UI of facebook'),
+  ProjectsUtils(
+      image: 'assets/Projects/Facebook.png',
+      title:'Calculator',
+      subtitle: 'has the UI of facebook')
 ];
