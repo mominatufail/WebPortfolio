@@ -34,7 +34,7 @@ List<ProjectsUtils> workProjectUtils = [
   ProjectsUtils(
       image: 'Assets/Calculator.png',
       title:'Calculator',
-      subtitle: 'h'
+      subtitle: ''
   )
           //'An app that adds, subtract, multiply, divide and give mod of the input numbers')
 ];
