@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:webportfolio/Controller/Constants/Colors/Colors.dart';
 import 'package:webportfolio/Controller/Constants/NavItems/Nav-Item.dart';
 import 'package:webportfolio/Controller/Constants/Styles/styles.dart';
+import 'package:webportfolio/Controller/Constants/Widgets/SiteLogo.dart';
 
 class HeaderDesktop extends StatelessWidget {
   const HeaderDesktop({super.key});
