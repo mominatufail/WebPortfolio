@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 class CustomColor {
-  static const Color ScaffoldBg= Color(0xFF4A148C);
+  static const Color ScaffoldBg= Color(0xFF8E24AA);//(0xFF4A148C);
   static const Color bgLight1 = Color(0xFF6A1B9A);//(0xff333646);
   static const Color bgLight2 = Color(0xff424657);
   static const Color textfieldbg = Color(0xffC8C9CE);
