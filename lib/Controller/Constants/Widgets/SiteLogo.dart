@@ -8,7 +8,7 @@ class SiteLogo extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return  GestureDetector( onTap: onTap,
-      child: Text('Syeda',style:
+      child: Text('Momina',style:
       TextStyle(
           fontSize: 22,
           fontWeight: FontWeight.bold,

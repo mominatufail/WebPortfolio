@@ -33,7 +33,7 @@ class MainMobile extends StatelessWidget {
           SizedBox(
             height: 30,
           ),
-          Text('Hi,\n I am Mahnoor Bukhari \n Flutter Developer',style: TextStyle(
+          Text('Hi,\n I am Momina Tufail \n Android and Flutter Developer',style: TextStyle(
             fontSize: 24,
             fontWeight: FontWeight.bold,
             color: CustomColor.whitePrimary,

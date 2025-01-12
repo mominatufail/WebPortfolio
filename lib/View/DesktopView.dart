@@ -22,7 +22,7 @@ class MainDesktop extends StatelessWidget {
           Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              Text('Hi,\n I am Mahnoor Bukhari \n Flutter Developer',style: TextStyle(
+              Text('Hi,\n I am Momina Tufail \n Android and Flutter Developer',style: TextStyle(
                 fontSize: 20,
                 height: 1.5,
                 fontWeight: FontWeight.bold,
