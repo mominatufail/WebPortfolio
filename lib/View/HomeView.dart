@@ -56,7 +56,7 @@ class _HomePageState extends State<HomePage> {
                   mainAxisSize: MainAxisSize.min,
                   children: [
                     //title
-                    Text("what I can Do",style: TextStyle(
+                    Text("What I can Do?",style: TextStyle(
                         fontSize: 24,
                         color: CustomColor.whitePrimary,
                         fontWeight: FontWeight.bold
