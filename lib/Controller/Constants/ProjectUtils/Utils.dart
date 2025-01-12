@@ -22,7 +22,7 @@ List<ProjectsUtils> workProjectUtils = [
   ProjectsUtils(
       image: 'Assets/Todoapp.png',
       title: 'Todo App',
-      subtitle: 'An app that takes user input about what to do today and descrition'),
+      subtitle: 'An app that takes user input about what to do today and description'),
   ProjectsUtils(
       image: 'Assets/WhatsAppScreen.png',
       title: 'Whatsapp Clone',
@@ -34,5 +34,7 @@ List<ProjectsUtils> workProjectUtils = [
   ProjectsUtils(
       image: 'Assets/Calculator.png',
       title:'Calculator',
-      subtitle: 'has the UI of facebook')
+      subtitle: 'h'
+  )
+          //'An app that adds, subtract, multiply, divide and give mod of the input numbers')
 ];
