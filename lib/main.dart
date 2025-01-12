@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-import 'Portfolio.dart';
-import 'SplashScreen.dart';
+import 'View/HomeView.dart';
+
 
 void main() {
   runApp(const MyApp());
@@ -35,7 +35,7 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
       ),
       debugShowCheckedModeBanner: false,
-      home: Splashscreen()
+      home: HomePage()
       //DesktopView()//const MyHomePage(title: 'Flutter Demo Home Page'),
     );
   }

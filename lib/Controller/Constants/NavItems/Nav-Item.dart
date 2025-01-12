@@ -10,5 +10,5 @@ List<IconData> NavIcons = [
   Icons.home,
   Icons.handyman_outlined,
   Icons.apps,
-  Icons.contact_page_outlined,
+  Icons.contact_mail_outlined,
 ];
