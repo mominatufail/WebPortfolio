@@ -1,23 +1,12 @@
 import 'package:flutter/material.dart';
-import 'package:portfolio/Constants/Colors/Colors.dart';
-import 'package:portfolio/Constants/screen-size.dart';
-import 'package:portfolio/Constants/skill-item/skill-item.dart';
-import 'package:portfolio/Styles/style.dart';
-import 'package:portfolio/Widgets/Drawer-mobile.dart';
-import 'package:portfolio/Widgets/Header-mobile.dart';
-import 'package:portfolio/Widgets/ProjectCardWidget.dart';
-import 'package:portfolio/Widgets/Projects-Section.dart';
-import 'package:portfolio/Widgets/header-desktop.dart';
-import 'package:portfolio/Widgets/main-desktop.dart';
-import 'package:portfolio/Widgets/main-mobile.dart';
-import 'package:portfolio/Widgets/site-logo.dart';
-import 'package:portfolio/Widgets/skills-desktop.dart';
-import 'package:portfolio/Widgets/skills-mobile.dart';
-import 'package:portfolio/Widgets/textfield-widget.dart';
-import 'package:portfolio/utils/Projects-util.dart';
+
 import 'package:webportfolio/Controller/Constants/Colors/Colors.dart';
 import 'package:webportfolio/Controller/Constants/ScreenSize/ScreenSize.dart';
 import 'package:webportfolio/Controller/Constants/Widgets/DrawerMobile.dart';
+import 'package:webportfolio/Controller/Constants/Widgets/HeaderDesktop.dart';
+import 'package:webportfolio/Controller/Constants/Widgets/HeaderMobile.dart';
+
+import 'DesktopView.dart';
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
 
